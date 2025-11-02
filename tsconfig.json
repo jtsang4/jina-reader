@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "module": "node16",
-
         "noImplicitReturns": true,
         "noUnusedLocals": true,
         "outDir": "build",
@@ -9,7 +8,9 @@
         "strict": true,
         "allowJs": true,
         "target": "es2022",
-        "lib": ["es2022"],
+        "lib": [
+            "es2022"
+        ],
         "skipLibCheck": true,
         "useDefineForClassFields": false,
         "experimentalDecorators": true,
@@ -18,5 +19,7 @@
         "noImplicitOverride": true,
     },
     "compileOnSave": true,
-    "include": ["src"]
+    "include": [
+        "src/stand-alone/simple.ts"
+    ]
 }

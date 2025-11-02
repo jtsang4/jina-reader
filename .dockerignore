@@ -1,0 +1,14 @@
+.git
+.vscode
+.github
+node_modules
+build
+storage
+storage/**
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.dockerignore
+Dockerfile

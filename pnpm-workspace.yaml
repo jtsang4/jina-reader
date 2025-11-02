@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - bcrypt
+  - koffi
+  - node-libcurl
+  - protobufjs
+  - puppeteer
+  - unrs-resolver
